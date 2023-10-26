@@ -1,12 +1,3 @@
- 
-Table of Contents
-Software Used:	2
-Purpose:	4
-Installation	4
-Gamification Features	4
-GitHub Link	5
-
- 
 Software Used:
 Microsoft Visual Studio Community 2022
 Version 17.1.0
