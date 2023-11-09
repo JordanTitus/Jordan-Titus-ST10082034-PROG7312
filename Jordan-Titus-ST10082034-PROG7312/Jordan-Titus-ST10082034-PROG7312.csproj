@@ -52,8 +52,27 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Identifying Areas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Identifying Areas.Designer.cs">
+      <DependentUpon>Identifying Areas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IdentifyingAreas Control.cs" />
+    <Compile Include="IdentifyingAreas Control.Designer.cs">
+      <DependentUpon>IdentifyingAreas Control.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Identifying Areas.resx">
+      <DependentUpon>Identifying Areas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IdentifyingAreas Control.resx">
+      <DependentUpon>IdentifyingAreas Control.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +81,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +95,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_625256025_ohJcE1pPJwzbRY0oUl1LvJSfWiKb1CMR.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\C418  - Sweden - Minecraft Volume Alpha.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
